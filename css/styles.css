@@ -70,3 +70,38 @@ nav ul li {
 nav #user-account {
     float: right;
 }
+
+h1 {
+    font-family: Orbitron;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Sanchez;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+input[type=submit] {
+    border: none;
+    color: #fff;
+    background-color: #444;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #666;
+}
+
